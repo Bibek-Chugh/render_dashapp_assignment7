@@ -7,7 +7,7 @@ import plotly.express as px
 
 
 app = dash.Dash()
-
+server = app.server
 
 cup_winners = {
     "Winners": [
