@@ -9,7 +9,7 @@ import plotly.express as px
 
 app = dash.Dash()
 server = app.server
-app.run_server(host='0.0.0.0', port=int(os.environment.get("PORT", 100000)))
+app.run_server(host='0.0.0.0', port=int(os.environ.get("PORT", 10000)))
 cup_winners = {
     "Winners": [
         "Uruguay", "Italy", "Italy", "Uruguay", "Germany", "Brazil", "Brazil", "England", "Brazil", "Germany",
